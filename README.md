@@ -1,10 +1,10 @@
-# WEB102 Prework - *Name of App Here*
+# WEB102 Prework - *Sea Monster Crowdfunding*
 
-Submitted by: **Your Name Here**
+Submitted by: **Joseph Musenge**
 
-**Name of your app** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+**Sea Monster Crowdfunding** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: **X** hours spent in total
+Time spent: **2** hours spent in total
 
 ## Required Features
 
@@ -23,22 +23,25 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='./assets/sea_monster_crowdfunding.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+GIF created with [LiceCap](https://www.cockos.com/licecap/) for Windows
+
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Here are some challenges I encountered while working on this project.
+
+1. Challenge: Implementing functions to filter and display funded and unfunded games.
+Solution: Created functions (filterUnfundedOnly, filterFundedOnly, showAllGames) to filter and display games based on their funding status.
+
+2. Challenge: Unexpected undefined return value when logging the result of filterUnfundedOnly.
+Solution: Modified filterUnfundedOnly to explicitly return the array of unfunded games for better logging.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2024 Joseph Musenge
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
